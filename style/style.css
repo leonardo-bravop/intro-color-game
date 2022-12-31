@@ -1,0 +1,48 @@
+.square {
+  float: left;
+  padding-bottom: 30%;
+  background-color: burlywood;
+  transition: 1s;
+  margin: 10px;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+#squares-container {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(3, 1fr);
+  width: 80vw;
+  height: calc(2/3 * 80vw);
+  margin: auto;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+#message {
+  color: white;
+  font-size: 1em;
+  font-weight: bold;
+  position: absolute;
+  top: 280px;
+  background-color: gray;
+  border-radius: 2em;
+  opacity: 0;
+  display: block;
+  padding: 20px;
+}
+
+#stripe {
+  position: relative;
+  background-color: burlywood;
+  text-align: center;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
